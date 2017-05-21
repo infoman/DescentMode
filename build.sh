@@ -16,4 +16,4 @@ mkdir -pv GameData/DescentMode/Plugins
 cp -av bin/Release/*.dll GameData/DescentMode/Plugins
 
 mkdir -pv packages
-zip -r -v packages/DescentMode.zip GameData
+zip -r -v packages/DescentMode.zip GameData LICENSE.txt README.md
