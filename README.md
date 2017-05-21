@@ -15,3 +15,7 @@ but possibly more features will be added in the future).
 
 License remains the same as Realism Overhaul:
 [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).
+
+## Installation
+
+Copy the DescentMode directory inside your GameData
