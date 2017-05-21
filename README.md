@@ -19,3 +19,10 @@ License remains the same as Realism Overhaul:
 ## Installation
 
 Copy the DescentMode directory inside your GameData
+
+## Usage
+
+* Right click you capsule and select "Turn Descent Mode On".
+* Orient you capsule to retrograde and rotate it such as the ground
+  (brown) is at the bottom of your navball, and the sky (blue) is at the top.
+* Enjoy your descent.
