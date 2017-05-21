@@ -24,5 +24,10 @@ Copy the DescentMode directory inside your GameData
 
 * Right click you capsule and select "Turn Descent Mode On".
 * Orient you capsule to retrograde and rotate it such as the ground
-  (brown) is at the bottom of your navball, and the sky (blue) is at the top.
+  (brown) is at the top of your navball, and the sky (blue) is at the bottom
+  (180 degrees roll).
+  This is different from the original Realism Overhaul setup, where you have
+  to set 0 roll, because it 1) allows your kerbals to see their planet
+  in the window and 2) makes better lift for mk1-2 pod with Ven's Stock Part
+  Revamp and FAR.
 * Enjoy your descent.
