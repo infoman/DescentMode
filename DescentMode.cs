@@ -4,6 +4,10 @@ using System.Linq;
 using System.Text;
 using UnityEngine;
 
+// Original code is from Realism Overhaul
+// https://github.com/KSP-RO/RealismOverhaul/blob/master/Source/CoMShifter.cs
+
+// Original RO notes was:
 // this code is by asmi
 // used with permission
 
