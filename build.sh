@@ -9,7 +9,7 @@ cd "$(dirname "$0")"
 rm -rvf bin obj packages
 
 export XBUILD=${XBUILD:-/opt/mono/bin/xbuild}
-export KSPPATH=${KSPPATH:-~/games/KSP-GOG/1.2.2/game}
+export KSPPATH=${KSPPATH:-~/games/KSP-GOG/1.3.1/game}
 
 ${XBUILD} /p:Configuration=Release /tv:2.0 DescentMode.sln
 mkdir -pv GameData/DescentMode/Plugins
