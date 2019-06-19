@@ -8,10 +8,10 @@ cd "$(dirname "$0")"
 
 rm -rvf bin obj packages
 
-export XBUILD=${XBUILD:-/opt/mono/bin/xbuild}
+export XBUILD=${XBUILD:-/usr/bin/msbuild}
 export KSPPATH=${KSPPATH:-~/games/KSP-GOG/1.4.3/game}
 
-${XBUILD} /p:Configuration=Release /tv:2.0 DescentMode.sln
+${XBUILD} /p:Configuration=Release DescentMode.sln
 mkdir -pv GameData/DescentMode/Plugins
 cp -av bin/Release/*.dll GameData/DescentMode/Plugins
 
